@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11794,7 +11794,7 @@ fast recovery rectifier, 1A</description>
 <label x="-2.54" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="RESET" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC6(/RESET)"/>
 <wire x1="0" y1="170.18" x2="2.54" y2="170.18" width="0.1524" layer="91"/>

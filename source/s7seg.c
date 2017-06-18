@@ -12,7 +12,7 @@
 
 extern volatile uint16_t countdown;
 
-uint8_t font[18] PROGMEM =
+const uint8_t font[18] PROGMEM =
 {
 		0b0000010,//0
 		0b1111010,//1

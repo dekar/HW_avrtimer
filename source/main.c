@@ -6,10 +6,10 @@
  */
 #include <inttypes.h>
 #include <avr/io.h>
-#include <avr/delay.h>
 #include <avr/interrupt.h>
 #include <avr/eeprom.h>
 #include <avr/pgmspace.h>
+#include <avr/delay.h>
 #include "platform.h"
 #include "stdint.h"
 #include "s7seg.h"
